@@ -752,7 +752,8 @@ footer-address-destination:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1) rotate(720deg);
+  /* transform: translate(-50%, -50%) rotate(360deg); */
   transition: transform 1000ms var(--cubic);
   /* 
   visibility: visible; */
@@ -788,7 +789,8 @@ close-icon {
 }
 
 .is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0) rotate(0deg);
+  /* transform: translate(-50%, -50%) rotate(0deg); */
 }
 
 .backdrop.is-hidden {
